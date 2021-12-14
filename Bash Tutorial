@@ -1,0 +1,538 @@
+Last login: Wed Dec  8 12:05:20 on ttys000
+You have new mail.
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Juans-MacBook-Pro:~ juan$ echo $0
+-bash
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:~ juan$ pwd
+/Users/juan
+Juans-MacBook-Pro:~ juan$ ls
+AWSCLIV2.pkg
+Ansible
+Applications
+Awsec1.pem
+Cisco Packet Tracer 8.0.1
+Creative Cloud Files
+DEPLOY4_FLASK_APP-main
+Desktop
+Documents
+Downloads
+Java
+KuraLabs
+Library
+Money bubble.png
+Movies
+Music
+Pictures
+Postman
+Public
+Python Practice
+Untitled.ipynb
+VirtualBox VMs
+automatetheboringstuff
+ballot.png
+config_map.yaml
+deploy9
+docker_glue
+flask-app1
+flask-app2
+flask_web
+getting-started
+hello_world2.yml
+helloworld.yml
+iam_policy.json
+ingress-control.yaml
+ingress-control02.yaml
+k8s mongoDB
+kura.yml
+lpthw
+mongo-deploy.yaml
+mongo_express.yaml
+nginx-ser.yaml
+nginx.yaml
+rbac-role.yaml
+scratch
+secret.yaml
+secret.yml
+test
+text.txt
+v2_3_0_full.yaml
+xi-5.8.7.tar.gz
+Juans-MacBook-Pro:~ juan$ ls -a
+.
+..
+.BrowserLock
+.CFUserTextEncoding
+.DS_Store
+.Trash
+.adobe
+.android
+.ansible
+.aws
+.bash_history
+.bash_sessions
+.bashrc
+.bridge
+.cache
+.config
+.cups
+.docker
+.gitconfig
+.ipynb_checkpoints
+.ipython
+.jupyter
+.k3d
+.kube
+.lesshst
+.local
+.m2
+.minikube
+.npm
+.oracle_jre_usage
+.packettracer
+.python_history
+.serverless
+.serverlessrc
+.ssh
+.terraform.d
+.viminfo
+.vs-kubernetes
+.vscode
+.zsh_history
+.zsh_sessions
+AWSCLIV2.pkg
+Ansible
+Applications
+Awsec1.pem
+Cisco Packet Tracer 8.0.1
+Creative Cloud Files
+DEPLOY4_FLASK_APP-main
+Desktop
+Documents
+Downloads
+Java
+KuraLabs
+Library
+Money bubble.png
+Movies
+Music
+Pictures
+Postman
+Public
+Python Practice
+Untitled.ipynb
+VirtualBox VMs
+automatetheboringstuff
+ballot.png
+config_map.yaml
+deploy9
+docker_glue
+flask-app1
+flask-app2
+flask_web
+getting-started
+hello_world2.yml
+helloworld.yml
+iam_policy.json
+ingress-control.yaml
+ingress-control02.yaml
+k8s mongoDB
+kura.yml
+lpthw
+mongo-deploy.yaml
+mongo_express.yaml
+nginx-ser.yaml
+nginx.yaml
+rbac-role.yaml
+scratch
+secret.yaml
+secret.yml
+test
+text.txt
+v2_3_0_full.yaml
+xi-5.8.7.tar.gz
+Juans-MacBook-Pro:~ juan$ mkdir Projects
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:~ juan$ ls
+AWSCLIV2.pkg
+Ansible
+Applications
+Awsec1.pem
+Cisco Packet Tracer 8.0.1
+Creative Cloud Files
+DEPLOY4_FLASK_APP-main
+Desktop
+Documents
+Downloads
+Java
+KuraLabs
+Library
+Money bubble.png
+Movies
+Music
+Pictures
+Postman
+Projects
+Public
+Python Practice
+Untitled.ipynb
+VirtualBox VMs
+automatetheboringstuff
+ballot.png
+config_map.yaml
+deploy9
+docker_glue
+flask-app1
+flask-app2
+flask_web
+getting-started
+hello_world2.yml
+helloworld.yml
+iam_policy.json
+ingress-control.yaml
+ingress-control02.yaml
+k8s mongoDB
+kura.yml
+lpthw
+mongo-deploy.yaml
+mongo_express.yaml
+nginx-ser.yaml
+nginx.yaml
+rbac-role.yaml
+scratch
+secret.yaml
+secret.yml
+test
+text.txt
+v2_3_0_full.yaml
+xi-5.8.7.tar.gz
+Juans-MacBook-Pro:~ juan$ pwd
+/Users/juan
+Juans-MacBook-Pro:~ juan$ cd Projects/
+Juans-MacBook-Pro:Projects juan$ pwd
+/Users/juan/Projects
+Juans-MacBook-Pro:Projects juan$ ls -al
+total 0
+drwxr-xr-x   2 juan  staff    64 Dec 11 18:23 .
+drwxr-xr-x+ 96 juan  staff  3072 Dec 11 18:23 ..
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:Projects juan$ cd ..
+Juans-MacBook-Pro:~ juan$ pwd
+/Users/juan
+Juans-MacBook-Pro:~ juan$ rmdir Projects/
+Juans-MacBook-Pro:~ juan$ ls -al
+total 189592
+drwxr-xr-x+  95 juan  staff      3040 Dec 11 18:24 .
+drwxr-xr-x    5 root  admin       160 Jan  1  2020 ..
+drwxr-xr-x    3 juan  staff        96 Dec  3 15:47 .BrowserLock
+-r--------    1 juan  staff         7 Nov 19  2020 .CFUserTextEncoding
+drwxr-x--x    3 juan  staff        96 Jan 27  2021 .adobe
+drwxr-xr-x    2 juan  staff        64 Oct  6 19:16 .android
+drwxr-xr-x    4 juan  staff       128 Nov  9 21:05 .ansible
+drwxr-xr-x    4 juan  staff       128 Aug 25 19:15 .aws
+-rw-------    1 juan  staff       463 Dec 11 18:19 .bash_history
+drwx------    3 juan  staff        96 Dec 11 18:19 .bash_sessions
+-rw-r--r--    1 juan  staff        35 Oct 16 23:03 .bashrc
+drwxr-xr-x    4 juan  staff       128 Oct 17 22:20 .bridge
+drwxr-xr-x    3 juan  staff        96 Oct  6 19:02 .cache
+drwxr-xr-x    5 juan  staff       160 Nov 14 12:19 .config
+drwx------    3 juan  staff        96 May  5  2021 .cups
+drwxr-xr-x   14 juan  staff       448 Nov 30 20:28 .docker
+-rw-r--r--    1 juan  staff       211 Nov 15 14:53 .gitconfig
+drwxr-xr-x    3 juan  staff        96 Oct 27 20:12 .ipynb_checkpoints
+drwxr-xr-x    5 juan  staff       160 Oct 27 20:12 .ipython
+drwxr-xr-x    3 juan  staff        96 Oct 27 19:18 .jupyter
+drwxr-xr-x    2 juan  staff        64 Oct 13 19:32 .k3d
+drwxr-xr-x    5 juan  staff       160 Nov 12 23:49 .kube
+-rw-------    1 juan  staff        32 Sep 18 11:10 .lesshst
+drwxr-xr-x    3 juan  staff        96 Nov 14 12:17 .local
+drwxr-xr-x    3 juan  staff        96 Oct  6 19:24 .m2
+drwxr-xr-x   10 juan  staff       320 Oct 17 22:25 .minikube
+drwxr-xr-x    6 juan  staff       192 Sep 18 11:01 .npm
+drwxr-xr-x    6 juan  staff       192 Dec 16  2020 .oracle_jre_usage
+-rw-r--r--    1 juan  staff       242 Sep  7 20:39 .packettracer
+-rw-------    1 juan  staff       101 Nov 15 19:15 .python_history
+drwxr-xr-x    4 juan  staff       128 Aug 26 20:34 .serverless
+-rw-r--r--    1 juan  staff       293 Aug 26 20:49 .serverlessrc
+drwx------    9 juan  staff       288 Nov  9 20:23 .ssh
+drwxr-xr-x    5 juan  staff       160 Dec 11 13:23 .terraform.d
+-rw-------    1 juan  staff      1752 Aug 26 12:47 .viminfo
+drwxr-xr-x    3 juan  staff        96 Dec  3 10:53 .vs-kubernetes
+drwxr-xr-x    4 juan  staff       128 Aug 21 15:34 .vscode
+-rw-------    1 juan  staff     26297 Dec  8 11:54 .zsh_history
+drwx------   23 juan  staff       736 Dec 11 18:18 .zsh_sessions
+-rw-r--r--    1 juan  staff  26615383 Aug 25 19:07 AWSCLIV2.pkg
+drwxr-xr-x    3 juan  staff        96 Nov 10 20:15 Ansible
+drwx------@   5 juan  staff       160 Apr 10  2021 Applications
+-r--------@   1 juan  staff      1700 Aug 14 15:51 Awsec1.pem
+drwxr-xr-x   10 juan  staff       320 Oct  2 14:17 Cisco Packet Tracer 8.0.1
+drwx------@   6 juan  staff       192 Nov 29 18:00 Creative Cloud Files
+drwx------@   5 juan  staff       160 Mar  5  2021
+drwxrwxr-x@   8 juan  staff       256 Oct 16 22:15 DEPLOY4_FLASK_APP-main
+drwx------@  43 juan  staff      1376 Nov 30 16:13 Documents
+-rw-r--r--@   1 juan  staff    255980 Aug 12 13:04
+drwxr-xr-x    5 juan  staff       160 Oct  6 19:17 Java
+drwxr-xr-x   20 juan  staff       640 Dec  3 10:23 KuraLabs
+drwx------+  75 juan  staff      2400 Oct 27 19:18 Library
+-rw-r--r--    1 juan  staff    905239 Jul  6 13:55 Money bubble.png
+drwx------+   4 juan  staff       128 Nov 22  2020 Movies
+drwx------+   4 juan  staff       128 Nov 19  2020 Music
+drwx------+   4 juan  staff       128 Nov 19  2020 Pictures
+drwxr-xr-x    3 juan  staff        96 Aug 17 20:31 Postman
+drwxr-xr-x+   4 juan  staff       128 Nov 19  2020 Public
+drwxr-xr-x    6 juan  staff       192 Nov 22 18:20 Python Practice
+-rw-r--r--    1 juan  staff     16983 Oct 27 20:48 Untitled.ipynb
+drwxr-xr-x    3 juan  staff        96 Aug 11 13:32 VirtualBox VMs
+drwxr-xr-x    4 juan  staff       128 Nov 15 14:43 automatetheboringstuff
+-rw-r--r--    1 juan  staff    342218 Jul 20 14:59 ballot.png
+-rw-r--r--    1 juan  staff       104 Nov  1 15:17 config_map.yaml
+drwxr-xr-x    9 juan  staff       288 Dec  8 18:22 deploy9
+drwxr-xr-x    3 juan  staff        96 Nov 16 20:35 docker_glue
+drwxr-xr-x    5 juan  staff       160 Oct 14 20:54 flask-app1
+drwxr-xr-x    5 juan  staff       160 Oct 14 19:11 flask-app2
+drwxr-xr-x    9 juan  staff       288 Oct 19 20:48 flask_web
+-rw-r--r--    1 juan  staff     46816 Aug 12 09:57
+drwxr-xr-x   17 juan  staff       544 Sep 29 18:41 getting-started
+-rw-r--r--    1 juan  staff       506 Oct 13 19:49 hello_world2.yml
+-rw-r--r--    1 juan  staff       700 Oct 13 20:54 helloworld.yml
+-rw-r--r--    1 juan  staff      7585 Oct 23 11:54 iam_policy.json
+-rw-r--r--@   1 juan  staff       470 Oct 23 14:45 ingress-control.yaml
+-rw-r--r--@   1 juan  staff       470 Oct 23 14:45 ingress-control02.yaml
+drwxr-xr-x    8 juan  staff       256 Nov 15 12:24 k8s mongoDB
+-rw-r--r--@   1 juan  staff       888 Oct 20 20:26 kura.yml
+drwxr-xr-x    7 juan  staff       224 Nov 15 18:33 lpthw
+-rw-r--r--    1 juan  staff       864 Nov  1 15:04 mongo-deploy.yaml
+-rw-r--r--    1 juan  staff      1090 Nov  1 15:18 mongo_express.yaml
+-rw-r--r--@   1 juan  staff       185 Oct 21 20:27 nginx-ser.yaml
+-rw-r--r--@   1 juan  staff       555 Oct 23 11:32 nginx.yaml
+-rw-r--r--    1 juan  staff      1163 Oct 23 11:53 rbac-role.yaml
+-rw-r--r--    1 juan  staff       113 Dec  2 01:26 scratch
+-rw-r--r--    1 juan  staff       190 Nov  1 15:11 secret.yaml
+-rw-r--r--    1 juan  staff       572 Nov 11 19:58 secret.yml
+drwxr-xr-x    2 juan  staff        64 Sep 29 20:40 test
+-rw-r--r--    1 juan  staff         0 Aug 25 19:25 text.txt
+-rw-r--r--@   1 juan  staff     31759 Oct 23 16:18 v2_3_0_full.yaml
+-rw-r--r--@   1 juan  staff  68678660 Nov 11 18:42 xi-5.8.7.tar.gz
+Juans-MacBook-Pro:~ juan$ mkdir Projects
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:~ juan$ cd Projects/
+Juans-MacBook-Pro:Projects juan$ ls
+Juans-MacBook-Pro:Projects juan$ touch file1.md
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:Projects juan$ ls
+file1.md
+Juans-MacBook-Pro:Projects juan$ ls -al
+total 0
+drwxr-xr-x   3 juan  staff    96 Dec 11 18:26 .
+drwxr-xr-x+ 96 juan  staff  3072 Dec 11 18:25 ..
+-rw-r--r--   1 juan  staff     0 Dec 11 18:26 file1.md
+Juans-MacBook-Pro:Projects juan$ rm file1.md 
+Juans-MacBook-Pro:Projects juan$ touch file2.md
+Juans-MacBook-Pro:Projects juan$ cp file2.md file2-copy.md
+Juans-MacBook-Pro:Projects juan$ ls
+file2-copy.md	file2.md
+Juans-MacBook-Pro:Projects juan$ mv file2-copy.md file3.md
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:Projects juan$ ls
+file2.md	file3.md
+Juans-MacBook-Pro:Projects juan$ vi file2.md
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:Projects juan$ vi file3.md
+Juans-MacBook-Pro:Projects juan$ cat file2.md
+file 2  is the best file in the entire directory!
+Juans-MacBook-Pro:Projects juan$ cat file3.md
+File 3 is a pretty good file too.
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:Projects juan$ ls
+file2.md	file3.md
+Juans-MacBook-Pro:Projects juan$ pwd
+/Users/juan/Projects
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:Projects juan$ cd..
+-bash: cd..: command not found
+Juans-MacBook-Pro:Projects juan$ ls -al
+total 16
+drwxr-xr-x   4 juan  staff   128 Dec 11 18:31 .
+drwxr-xr-x+ 96 juan  staff  3072 Dec 11 18:31 ..
+-rw-r--r--   1 juan  staff    50 Dec 11 18:30 file2.md
+-rw-r--r--   1 juan  staff    34 Dec 11 18:31 file3.md
+Juans-MacBook-Pro:Projects juan$ cd
+Juans-MacBook-Pro:~ juan$ ls -al
+total 189592
+drwxr-xr-x+  96 juan  staff      3072 Dec 11 18:31 .
+drwxr-xr-x    5 root  admin       160 Jan  1  2020 ..
+drwxr-xr-x    3 juan  staff        96 Dec  3 15:47 .BrowserLock
+-r--------    1 juan  staff         7 Nov 19  2020 .CFUserTextEncoding
+drwxr-x--x    3 juan  staff        96 Jan 27  2021 .adobe
+drwxr-xr-x    2 juan  staff        64 Oct  6 19:16 .android
+drwxr-xr-x    4 juan  staff       128 Nov  9 21:05 .ansible
+drwxr-xr-x    4 juan  staff       128 Aug 25 19:15 .aws
+-rw-------    1 juan  staff       463 Dec 11 18:19 .bash_history
+drwx------    3 juan  staff        96 Dec 11 18:19 .bash_sessions
+-rw-r--r--    1 juan  staff        35 Oct 16 23:03 .bashrc
+drwxr-xr-x    4 juan  staff       128 Oct 17 22:20 .bridge
+drwxr-xr-x    3 juan  staff        96 Oct  6 19:02 .cache
+drwxr-xr-x    5 juan  staff       160 Nov 14 12:19 .config
+drwx------    3 juan  staff        96 May  5  2021 .cups
+drwxr-xr-x   14 juan  staff       448 Nov 30 20:28 .docker
+-rw-r--r--    1 juan  staff       211 Nov 15 14:53 .gitconfig
+drwxr-xr-x    3 juan  staff        96 Oct 27 20:12 .ipynb_checkpoints
+drwxr-xr-x    5 juan  staff       160 Oct 27 20:12 .ipython
+drwxr-xr-x    3 juan  staff        96 Oct 27 19:18 .jupyter
+drwxr-xr-x    2 juan  staff        64 Oct 13 19:32 .k3d
+drwxr-xr-x    5 juan  staff       160 Nov 12 23:49 .kube
+-rw-------    1 juan  staff        32 Sep 18 11:10 .lesshst
+drwxr-xr-x    3 juan  staff        96 Nov 14 12:17 .local
+drwxr-xr-x    3 juan  staff        96 Oct  6 19:24 .m2
+drwxr-xr-x   10 juan  staff       320 Oct 17 22:25 .minikube
+drwxr-xr-x    6 juan  staff       192 Sep 18 11:01 .npm
+drwxr-xr-x    6 juan  staff       192 Dec 16  2020 .oracle_jre_usage
+-rw-r--r--    1 juan  staff       242 Sep  7 20:39 .packettracer
+-rw-------    1 juan  staff       101 Nov 15 19:15 .python_history
+drwxr-xr-x    4 juan  staff       128 Aug 26 20:34 .serverless
+-rw-r--r--    1 juan  staff       293 Aug 26 20:49 .serverlessrc
+drwx------    9 juan  staff       288 Nov  9 20:23 .ssh
+drwxr-xr-x    5 juan  staff       160 Dec 11 13:23 .terraform.d
+-rw-------    1 juan  staff      4041 Dec 11 18:31 .viminfo
+drwxr-xr-x    3 juan  staff        96 Dec  3 10:53 .vs-kubernetes
+drwxr-xr-x    4 juan  staff       128 Aug 21 15:34 .vscode
+-rw-------    1 juan  staff     26297 Dec  8 11:54 .zsh_history
+drwx------   23 juan  staff       736 Dec 11 18:18 .zsh_sessions
+-rw-r--r--    1 juan  staff  26615383 Aug 25 19:07 AWSCLIV2.pkg
+drwxr-xr-x    3 juan  staff        96 Nov 10 20:15 Ansible
+drwx------@   5 juan  staff       160 Apr 10  2021 Applications
+-r--------@   1 juan  staff      1700 Aug 14 15:51 Awsec1.pem
+drwxr-xr-x   10 juan  staff       320 Oct  2 14:17 Cisco Packet Tracer 8.0.1
+drwx------@   6 juan  staff       192 Nov 29 18:00 Creative Cloud Files
+drwx------@   5 juan  staff       160 Mar  5  2021
+drwxrwxr-x@   8 juan  staff       256 Oct 16 22:15 DEPLOY4_FLASK_APP-main
+drwx------@  43 juan  staff      1376 Nov 30 16:13 Documents
+-rw-r--r--@   1 juan  staff    255980 Aug 12 13:04
+drwxr-xr-x    5 juan  staff       160 Oct  6 19:17 Java
+drwxr-xr-x   20 juan  staff       640 Dec  3 10:23 KuraLabs
+drwx------+  75 juan  staff      2400 Oct 27 19:18 Library
+-rw-r--r--    1 juan  staff    905239 Jul  6 13:55 Money bubble.png
+drwx------+   4 juan  staff       128 Nov 22  2020 Movies
+drwx------+   4 juan  staff       128 Nov 19  2020 Music
+drwx------+   4 juan  staff       128 Nov 19  2020 Pictures
+drwxr-xr-x    3 juan  staff        96 Aug 17 20:31 Postman
+drwxr-xr-x    4 juan  staff       128 Dec 11 18:31 Projects
+drwxr-xr-x+   4 juan  staff       128 Nov 19  2020 Public
+drwxr-xr-x    6 juan  staff       192 Nov 22 18:20 Python Practice
+-rw-r--r--    1 juan  staff     16983 Oct 27 20:48 Untitled.ipynb
+drwxr-xr-x    3 juan  staff        96 Aug 11 13:32 VirtualBox VMs
+drwxr-xr-x    4 juan  staff       128 Nov 15 14:43 automatetheboringstuff
+-rw-r--r--    1 juan  staff    342218 Jul 20 14:59 ballot.png
+-rw-r--r--    1 juan  staff       104 Nov  1 15:17 config_map.yaml
+drwxr-xr-x    9 juan  staff       288 Dec  8 18:22 deploy9
+drwxr-xr-x    3 juan  staff        96 Nov 16 20:35 docker_glue
+drwxr-xr-x    5 juan  staff       160 Oct 14 20:54 flask-app1
+drwxr-xr-x    5 juan  staff       160 Oct 14 19:11 flask-app2
+drwxr-xr-x    9 juan  staff       288 Oct 19 20:48 flask_web
+-rw-r--r--    1 juan  staff     46816 Aug 12 09:57
+drwxr-xr-x   17 juan  staff       544 Sep 29 18:41 getting-started
+-rw-r--r--    1 juan  staff       506 Oct 13 19:49 hello_world2.yml
+-rw-r--r--    1 juan  staff       700 Oct 13 20:54 helloworld.yml
+-rw-r--r--    1 juan  staff      7585 Oct 23 11:54 iam_policy.json
+-rw-r--r--@   1 juan  staff       470 Oct 23 14:45 ingress-control.yaml
+-rw-r--r--@   1 juan  staff       470 Oct 23 14:45 ingress-control02.yaml
+drwxr-xr-x    8 juan  staff       256 Nov 15 12:24 k8s mongoDB
+-rw-r--r--@   1 juan  staff       888 Oct 20 20:26 kura.yml
+drwxr-xr-x    7 juan  staff       224 Nov 15 18:33 lpthw
+-rw-r--r--    1 juan  staff       864 Nov  1 15:04 mongo-deploy.yaml
+-rw-r--r--    1 juan  staff      1090 Nov  1 15:18 mongo_express.yaml
+-rw-r--r--@   1 juan  staff       185 Oct 21 20:27 nginx-ser.yaml
+-rw-r--r--@   1 juan  staff       555 Oct 23 11:32 nginx.yaml
+-rw-r--r--    1 juan  staff      1163 Oct 23 11:53 rbac-role.yaml
+-rw-r--r--    1 juan  staff       113 Dec  2 01:26 scratch
+-rw-r--r--    1 juan  staff       190 Nov  1 15:11 secret.yaml
+-rw-r--r--    1 juan  staff       572 Nov 11 19:58 secret.yml
+drwxr-xr-x    2 juan  staff        64 Sep 29 20:40 test
+-rw-r--r--    1 juan  staff         0 Aug 25 19:25 text.txt
+-rw-r--r--@   1 juan  staff     31759 Oct 23 16:18 v2_3_0_full.yaml
+-rw-r--r--@   1 juan  staff  68678660 Nov 11 18:42 xi-5.8.7.tar.gz
+Juans-MacBook-Pro:~ juan$ touch ,bashrc
+Juans-MacBook-Pro:~ juan$ touch .bash_profile
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:~ juan$ atom .
+-bash: atom: command not found
+Juans-MacBook-Pro:~ juan$ vs.
+-bash: vs.: command not found
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:~ juan$ vscode .
+-bash: vscode: command not found
+Juans-MacBook-Pro:~ juan$ touch .bashrc
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:~ juan$ code
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:~ juan$ code .
+Juans-MacBook-Pro:~ juan$ ping google.com
+PING google.com (142.250.80.78): 56 data bytes
+64 bytes from 142.250.80.78: icmp_seq=0 ttl=117 time=14.649 ms
+64 bytes from 142.250.80.78: icmp_seq=1 ttl=117 time=18.808 ms
+64 bytes from 142.250.80.78: icmp_seq=2 ttl=117 time=12.359 ms
+64 bytes from 142.250.80.78: icmp_seq=3 ttl=117 time=14.328 ms
+64 bytes from 142.250.80.78: icmp_seq=4 ttl=117 time=16.683 ms
+64 bytes from 142.250.80.78: icmp_seq=5 ttl=117 time=18.205 ms
+64 bytes from 142.250.80.78: icmp_seq=6 ttl=117 time=14.987 ms
+^C
+--- google.com ping statistics ---
+7 packets transmitted, 7 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 12.359/15.717/18.808/2.123 ms
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:~ juan$ cd Project
+-bash: cd: Project: No such file or directory
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:~ juan$ cd Projects
+Juans-MacBook-Pro:Projects juan$ vi good morning
+2 files to edit
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:Projects juan$ good morning
+-bash: good: command not found
+Juans-MacBook-Pro:Projects juan$ good-morning
+-bash: good-morning: command not found
+Juans-MacBook-Pro:Projects juan$ ls -al
+total 24
+drwxr-xr-x   5 juan  staff   160 Dec 11 18:35 .
+drwxr-xr-x+ 98 juan  staff  3136 Dec 11 18:35 ..
+-rw-r--r--   1 juan  staff    50 Dec 11 18:31 file2.md
+-rw-r--r--   1 juan  staff    34 Dec 11 18:31 file3.md
+-rw-r--r--   1 juan  staff    46 Dec 11 18:35 good
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:Projects juan$ chmod +x good
+You have new mail in /var/mail/juan
+Juans-MacBook-Pro:Projects juan$ good
+-bash: good: command not found
+Juans-MacBook-Pro:Projects juan$ ./good
+
+Good Morning, Wolrd.
+Juans-MacBook-Pro:Projects juan$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
